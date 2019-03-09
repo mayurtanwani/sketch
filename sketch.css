@@ -1,4 +1,80 @@
-*{
+#container{
 
-    background-color: red;
+    width: 550px;
+    height: 550px;
+    margin: auto;
+    border: 3px solid rgb(0, 0, 0);
+    display: grid;
+
+
+
+    
+
+}
+
+
+.row{
+
+    display: grid;
+    
+
+}
+
+
+.pixel{
+    border: 1px solid  rgb(0, 0, 0);
+
+
+}
+
+.clicked{
+
+    background-color: rgb(24, 19, 19) !important; 
+}
+
+.selected{
+
+    background-color: rgb(9, 9, 10) !important;
+    border: none;
+}
+
+
+button{
+
+    height: 30px;
+}
+
+input{
+
+    height: 24px;
+}
+
+
+.rowInput{
+    margin: 20px auto;
+
+    width: 400px;
+}
+
+
+.create{
+
+    margin-left: 20px;
+}
+
+
+.reset{
+
+    margin-left: 20px;
+}
+
+.color{
+    width: 200px;    
+    margin: 0 auto;
+}
+
+
+.black{
+
+    background-color: rgb(255, 255, 255);
 }
